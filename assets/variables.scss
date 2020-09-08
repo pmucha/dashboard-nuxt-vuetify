@@ -11,3 +11,23 @@
 // https://github.com/nuxt-community/vuetify-module#customvariables
 // A list of default Vuetify variables:
 // https://dev.vuetifyjs.com/en/customization/sass-variables/
+
+@import "~vuetify/src/styles/styles.sass";
+
+// $app-bar-elevation: 0;
+
+// $body-font-family: "Noto Sans", "Segoe UI", Roboto, "Helvetica Neue", system-ui, sans-serif, -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// $body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$border-radius-root: 2px;
+
+$btn-hover-opacity: 0.25;
+$btn-letter-spacing: initial;
+
+$btn-transition: opacity 0.15s map-get($transition, "ease-out");
+
+$card-text-font-size: $font-size-root;
+
+$navigation-drawer-border-width: 0.5px;
+
+$text-field-outlined-fieldset-border-width: 0.5px;
