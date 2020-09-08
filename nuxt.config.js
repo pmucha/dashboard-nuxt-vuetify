@@ -66,22 +66,25 @@ export default {
   ** https://github.com/nuxt-community/vuetify-module
   */
   vuetify: {
+    // treeShake makes dev builds slower
+    // but the custom SCSS variables are available then
     treeShake: true, // process.env.NODE_ENV === "production"
     customVariables: ["~/assets/variables.scss"],
     theme: {
       options: {
-        customProperties: true,
+        customProperties: true, // enables var(--v-primary-base) and similar
       },
       dark: true,
-      light: false,
+      light: true,
       themes: {
         light: {
-          primary: "#003F7A",
-          secondary: "#A34100",
-          accent: "#8d8dac",
-          info: "#3A6EA5",
-          success: "#88aa44",
-          error: "#f4442e",
+          primary: "#1976D2",
+          secondary: "#424242",
+          accent: "#82B1FF",
+          error: "#FF5252",
+          info: "#2196F3",
+          success: "#4CAF50",
+          warning: "#FFC107",
           background: "#ebebeb",
         },
         dark: {
@@ -93,18 +96,6 @@ export default {
           warning: "#7D4800",
           error: "#700200",
           success: "#7A7029",
-
-          // primary: "#C1EF37",
-          // secondary: "#5A656E",
-          // secondary: "#5A656E",
-          // accent: "#1CB8AC",
-          // info: "#30EAE5",
-          // success: "#23DF23",
-          // error: "#F08304",
-          // warning: "#C0FF01",
-          // background: "#212528",
-          // primary: colors.blue.darken2,
-          // accent: colors.grey.darken7,
         },
       },
     },
