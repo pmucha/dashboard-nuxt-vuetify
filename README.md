@@ -1,20 +1,13 @@
-# dashboard-nuxt-vuetify
+# Vue.js Dashboard
 
-## Build Setup
+Hello! My name's Paweł Mucha. This is an example dashboard created using _Vue.js_, _Nuxt.js_ and _Vuetify.js_. You can check the compiled version out on [my website](https://pawelmucha.com/vue-dashboard/). It was created so you can see and assess my code quality.
+
+You can contact me by e-mail [pawel@mucha.com](pawel@mucha.com) or take a look at my [Upwork profile](https://pawelmucha.com/upwork).
+
+**In case you'd like to pull it and build:**
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+# The procedure is standard:
+yarn install
+yarn dev
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
