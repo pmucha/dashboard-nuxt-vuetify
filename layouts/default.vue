@@ -76,7 +76,7 @@
           router
           exact
         >
-          <v-list-item-action class="mr-3">
+          <v-list-item-action class="mt-2 mr-3">
             <v-icon small color="grey">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
@@ -272,11 +272,6 @@ export default {
   }
 } // .topSearchColumn
 
-.list-item {
-  text-transform: uppercase;
-  font-size: 0.75em;
-}
-
 .v-input {
   // Makes the magnifying glass icon in the top bar
   // a bit closer to the left.
@@ -286,5 +281,12 @@ export default {
 
     opacity: 0.6;
   }
+}
+</style>
+
+<style scoped>
+.list-item {
+  text-transform: uppercase;
+  font-size: 0.75em;
 }
 </style>
